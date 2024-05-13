@@ -37,6 +37,26 @@ body {
   border-radius: 10px;
 }
 
+.gallery_vis_problemas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.gallery_vis_problemas img {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
 .gallery::after {
   content: "";
   width: 550px;
