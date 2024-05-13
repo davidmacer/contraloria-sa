@@ -5,7 +5,11 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #f5f6f7;
+  background: rgb(243, 243, 243);
+}
+
+h1 {
+  color: rgb(243, 243, 243);
 }
 
 .header {
@@ -14,7 +18,7 @@ body {
   padding: 32px;
   background-color: #0a0a23;
   color: #fff;
-  border-bottom: 4px solid #fdb347;
+  border-bottom: 4px solid rgb(13, 125, 138);
 }
 
 .gallery {
